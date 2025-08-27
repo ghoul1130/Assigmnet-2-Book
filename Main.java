@@ -100,3 +100,17 @@ class TestBookDemo {
         System.out.println("Total Number of Books created: " + Book.getBookCount());
     }
 }
+
+---OUTPUT---
+
+  A new 'Penguin' Book object has been created.
+Opening the book: '1984'
+Reading page 1 of '1984'
+Reading page 2 of '1984'
+Currently on page: 3 of '1984'
+Changing author from George Orwell to Eric Arthur Blair
+Closing the book: '1984'
+Total pages of '1984' updated to: 10
+  A new 'Penguin' Book object has been created.
+  A new 'Penguin' Book object has been created.
+Total Number of Books created: 3
